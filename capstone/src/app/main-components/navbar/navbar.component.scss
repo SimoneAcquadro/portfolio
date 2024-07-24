@@ -1,0 +1,285 @@
+#container-nav {
+  margin-bottom: 80px;
+}
+
+.navbar {
+  background-color: #353535;
+}
+
+#navbarCollapse {
+  animation: fadeIn 2s forwards;
+}
+
+#logo {
+  width: 80px;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+#navSx {
+  display: flex;
+  padding-left: 10px;
+}
+
+#logoNome {
+  font-size: 1.5rem;
+}
+
+
+#navSx .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+#navSx img {
+  margin-right: 8px;
+}
+
+#logoNome {
+  margin: 0;
+}
+
+#a-web {
+  background: #FF8D0A;
+  background: linear-gradient(to bottom right, #FF8D0A 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#a-tech {
+  background: #332DFF;
+  background: linear-gradient(to top left, #332DFF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.black-btn {
+  appearance: button;
+  background-color: #fbfbef;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #fbfbef;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #292929;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 3px;
+  padding: .3rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.black-btn:focus:not(:focus-visible),
+.black-btn:focus {
+  outline: 0;
+}
+
+.black-btn:hover {
+  background-color: #292929;
+  border-color: #292929;
+  color: #fbfbef;
+}
+
+.black-btn:active {
+  background-color: #353535;
+  background-image: none;
+  border-color: #292929;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.black-btn:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(210, 129, 15, 0.075) 0 0 0 .2rem;
+}
+
+.black-btn:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+#web-btn {
+  appearance: button;
+  background-color: #ff8d0a;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #ff8d0a;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .3rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#web-btn:focus:not(:focus-visible),
+#web-btn:focus {
+  outline: 0;
+}
+
+#web-btn:hover {
+  background-color: #fbfbef;
+  border-color: #fbfbef;
+  color: #FF8D0A;
+}
+
+#web-btn:active {
+  background-color: lightgrey;
+  background-image: none;
+  border-color: #cc6d00;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+  color: #cc6d00;
+}
+
+#web-btn:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(210, 129, 15, 0.075) 0 0 0 .2rem;
+}
+
+#web-btn:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+.blue-btn {
+  appearance: button;
+  background-color: #332DFF;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #332DFF;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .3rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.blue-btn:focus:not(:focus-visible),
+.blue-btn:focus {
+  outline: 0;
+}
+
+.blue-btn:hover {
+  background-color: #fbfbef;
+  border-color: #fbfbef;
+  color: #0600B8;
+}
+
+.blue-btn:active {
+  background-color: lightgray;
+  background-image: none;
+  border-color: #0600B8;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.blue-btn:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(210, 129, 15, 0.075) 0 0 0 .2rem;
+}
+
+.blue-btn:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 375px) {
+  #navSx {
+    padding-left: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  a {
+    font-size: 1.5rem;
+    padding-left: 0;
+  }
+
+  #container-nav {
+    margin-bottom: 80px;
+  }
+
+}
+
+@media (min-width: 2560px) {
+  a {
+    font-size: 2.4rem;
+  }
+
+  #navSx {
+    padding-left: 580px;
+  }
+
+  #logoNome {
+    font-size: 1.5rem;
+  }
+
+  #navSx img {
+    width: 64px;
+    margin-right: 16px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 32px;
+  }
+
+  #navbarCollapse {
+    margin-left: 535px;
+  }
+
+  #container-nav {
+    margin-bottom: 100px;
+  }
+}

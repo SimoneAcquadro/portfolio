@@ -1,0 +1,33 @@
+<div class="coolDiv p-3 pe-0 pb-4 p-md-4 pb-lg-5 tech-card animazione">
+  <div class="container-fluid row">
+    <h2 class="display-5 fw-bold px-0">{{ card1[0].titolo }}</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap flex-md-nowrap px-0">
+      <p class="col-md-6 fs-4 mb-4 mb-md-0 pe-4" [innerHTML]="formatText(card1[0].testo)"></p>
+      <div class="img-container col-md-6 ps-1">
+        <img [src]="card1[0].foto" alt="foto" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="coolDiv p-3 pe-0 pb-4 p-md-4 pb-lg-5 tech-card animazione">
+  <div class="container-fluid row">
+    <h2 class="display-5 fw-bold px-0">{{ card2[0].titolo }}</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap flex-md-row-reverse flex-md-nowrap px-0">
+      <p class="col-md-6 fs-4 mb-4 mb-md-0 pe-4 ps-md-3" [innerHTML]="formatText(card2[0].testo)"></p>
+      <div class="img-container col-md-6 ps-1 pe-md-3">
+        <img [src]="card2[0].foto" alt="foto" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" coolDiv p-3 pe-0 pb-4 p-md-4 pb-lg-5 tech-card animazione">
+  <div class="container-fluid row">
+    <h2 class="display-5 fw-bold px-0">{{ card3[0].titolo }}</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap flex-md-nowrap px-0">
+      <p class="col-md-6 fs-4 mb-4 mb-md-0 pe-4" [innerHTML]="formatText(card3[0].testo)"></p>
+      <div class="img-container col-md-6 pe-1">
+        <img [src]="card3[0].foto" alt="foto" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
