@@ -8,12 +8,7 @@ import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
 
-// import { LoginStatusService } from './services/login-status.service';
 
-// function redirectBasedOnAuth (loginStatusService: LoginStatusService) {
-//   if (loginStatusService.IsLoggedIn) return '/curriculum'
-//   else return '/login'
-// }
 
 const routes: Routes = [
   {
@@ -35,7 +30,7 @@ const routes: Routes = [
   {
     path:'curriculum',
     component: CurriculumComponent,
-    // redirectTo: () => redirectBasedOnAuth(LoginStatusService)
+
   },
   {
     path:'login',

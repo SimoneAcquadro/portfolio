@@ -17,6 +17,11 @@ img {
   flex-direction: column;
 }
 
+#esperienze {
+  color: #fbfbef;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .allineamento {
     flex-direction: row;
