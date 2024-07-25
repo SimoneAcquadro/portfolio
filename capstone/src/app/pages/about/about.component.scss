@@ -15,6 +15,7 @@ img {
 .allineamento {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 #esperienze {
@@ -25,7 +26,6 @@ img {
 @media (min-width: 768px) {
   .allineamento {
     flex-direction: row;
-    align-items: center;
   }
 
   .div-foto {
@@ -41,7 +41,9 @@ img {
     padding-bottom: 60px;
   }
 
-
+  h2 {
+    font-size: 2.4rem;
+  }
 
 }
 
@@ -77,6 +79,13 @@ img {
     padding-bottom: 80px;
   }
 
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 
 }
 
@@ -88,16 +97,26 @@ img {
     padding-bottom: 80px;
   }
 
-  .allineamento {
-    align-items: flex-start;
+  h2 {
+    font-size: 2.8rem;
   }
+
+  p {
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+  }
+
 }
 
 @media (min-width: 1440px) {
-  h1 {
-    font-size: 11.5rem;
-    line-height: 9.4rem;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+  h2 {
+    font-size: 4.2rem;
   }
+
+  p {
+    font-size: 2rem;
+  }
+
 }
