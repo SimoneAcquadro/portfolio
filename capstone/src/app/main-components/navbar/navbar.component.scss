@@ -252,34 +252,3 @@ a {
   }
 
 }
-
-@media (min-width: 2560px) {
-  a {
-    font-size: 2.4rem;
-  }
-
-  #navSx {
-    padding-left: 580px;
-  }
-
-  #logoNome {
-    font-size: 1.5rem;
-  }
-
-  #navSx img {
-    width: 64px;
-    margin-right: 16px;
-  }
-
-  .navbar-nav .nav-item {
-    margin-right: 32px;
-  }
-
-  #navbarCollapse {
-    margin-left: 535px;
-  }
-
-  #container-nav {
-    margin-bottom: 100px;
-  }
-}
